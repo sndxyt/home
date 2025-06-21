@@ -1,37 +1,89 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
-<title>Sandesh Singjali
-</title>
-<link rel="stylesheet" href="looks.css">
-<script
-src = "java.js">
-</script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dx Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 </head>
-<body bgcolor="white">
-  <center>
-    <br>
-    <br>
-    
-    <h2>Sandesh Singjali (sndx)</h2><br>
-    I am a freelance script writer, voice actor and artist myself and i am providing the following services.<br><br>
-1.Music Production<br>
-2.Web Development and Paid Hosting<br>
-3.Vocalist and Music Collaboration<br>
+<body>
+    <header>
+        <div class="container">
+            <h1 class="logo">Portfolio</h1>
+            <nav>
+                <ul>
+                    <li><a href="#home">Home</a></li>
 
-   <br> CONTACT <br>
-    Mail: sndxyt@gmail.com<br>
-    Instagram : @sandeshsingjali <a href ="https://www.instagram.com/sandeshsingjali/">[click]</a>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
 
-    <br>
-    <br>
-<h1> SERVICES
-</h1>
-<button> <a href="https://www.youtube.com/channel/UCrAwI1DpTzaUH0mVUKwhPOA">My Channel</a>
-</button>
-    <button> <a href="https://www.youtube.com/channel/UCrAwI1DpTzaUH0mVUKwhPOA">My Channel</a>
-</button>
-  </center>
+    <main>
+        <section id="home" class="hero">
+            <div class="container">
+                <h2>Hi, I'm <span class="highlight">Sandesh Singjali</span></h2>
+                <p class="tagline">I create <span id="typewriter">Websites,Music (as a hobby)</span></p>
+                <a href="#work" class="btn">View My Work</a>
+            </div>
+        </section>
 
+
+
+        <section id="about" class="section">
+            <div class="container">
+                <h2>About Me</h2>
+                <div class="about-content">
+                    <img src="https://via.placeholder.com/300x300" alt="Your Photo" class="profile-pic">
+                    <div class="bio">
+                        <p>Hello! I'm a passionate creator starting in Web Dev. With 2 years of experience, I love bringing ideas to life.</p>
+                        <p>When I'm not working, you can find me creating music which i can also help you in every step of the way. </p>
+                        <h3>Skills</h3>
+                        <ul class="skills">
+                            <li>HTML/CSS</li>
+                            <li>JavaScript</li>
+                            <li>Music Production</li>
+                            <li>Songwriting</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="section">
+            <div class="container">
+                <h2>Get In Touch</h2>
+                <form id="contact-form">
+                    <div class="form-group">
+                        <input type="text" id="name" placeholder="Your Name" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" id="email" placeholder="Your Email" required>
+                    </div>
+                    <div class="form-group">
+                        <textarea id="message" placeholder="Your Message" required></textarea>
+                    </div>
+                    <button type="submit" class="btn">Send Message</button>
+                </form>
+                <div class="social-links">
+                    <a href="https://youtube.com/@sndxrecords?si=4oQmgeOqifM9Alqw"><i class="fab fa-youtube"></i></a>
+
+                    <a href="https://www.instagram.com/sandeshsingjali/"><i class="fab fa-instagram"></i></a>
+
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; <span id="year"></span>Sandesh Singjali. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
 </body>
-  
 </html>
